@@ -1,3 +1,9 @@
 # os
 
-to do:
+## Introduction:
+
+## Project Status:
+
+## Technologies:
+
+## Launch:
