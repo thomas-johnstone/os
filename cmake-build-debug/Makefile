@@ -143,248 +143,248 @@ osa3_wip/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/build
 .PHONY : osa3_wip/fast
 
-cpu.o: cpu.c.o
+files/cpu.o: files/cpu.c.o
 
-.PHONY : cpu.o
-
-# target to build an object file
-cpu.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/cpu.c.o
-.PHONY : cpu.c.o
-
-cpu.i: cpu.c.i
-
-.PHONY : cpu.i
-
-# target to preprocess a source file
-cpu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/cpu.c.i
-.PHONY : cpu.c.i
-
-cpu.s: cpu.c.s
-
-.PHONY : cpu.s
-
-# target to generate assembly for a file
-cpu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/cpu.c.s
-.PHONY : cpu.c.s
-
-interpreter.o: interpreter.c.o
-
-.PHONY : interpreter.o
+.PHONY : files/cpu.o
 
 # target to build an object file
-interpreter.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/interpreter.c.o
-.PHONY : interpreter.c.o
+files/cpu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/cpu.c.o
+.PHONY : files/cpu.c.o
 
-interpreter.i: interpreter.c.i
+files/cpu.i: files/cpu.c.i
 
-.PHONY : interpreter.i
+.PHONY : files/cpu.i
 
 # target to preprocess a source file
-interpreter.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/interpreter.c.i
-.PHONY : interpreter.c.i
+files/cpu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/cpu.c.i
+.PHONY : files/cpu.c.i
 
-interpreter.s: interpreter.c.s
+files/cpu.s: files/cpu.c.s
 
-.PHONY : interpreter.s
+.PHONY : files/cpu.s
 
 # target to generate assembly for a file
-interpreter.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/interpreter.c.s
-.PHONY : interpreter.c.s
+files/cpu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/cpu.c.s
+.PHONY : files/cpu.c.s
 
-kernel.o: kernel.c.o
+files/interpreter.o: files/interpreter.c.o
 
-.PHONY : kernel.o
+.PHONY : files/interpreter.o
 
 # target to build an object file
-kernel.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/kernel.c.o
-.PHONY : kernel.c.o
+files/interpreter.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/interpreter.c.o
+.PHONY : files/interpreter.c.o
 
-kernel.i: kernel.c.i
+files/interpreter.i: files/interpreter.c.i
 
-.PHONY : kernel.i
+.PHONY : files/interpreter.i
 
 # target to preprocess a source file
-kernel.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/kernel.c.i
-.PHONY : kernel.c.i
+files/interpreter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/interpreter.c.i
+.PHONY : files/interpreter.c.i
 
-kernel.s: kernel.c.s
+files/interpreter.s: files/interpreter.c.s
 
-.PHONY : kernel.s
+.PHONY : files/interpreter.s
 
 # target to generate assembly for a file
-kernel.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/kernel.c.s
-.PHONY : kernel.c.s
+files/interpreter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/interpreter.c.s
+.PHONY : files/interpreter.c.s
 
-main.o: main.c.o
+files/kernel.o: files/kernel.c.o
 
-.PHONY : main.o
+.PHONY : files/kernel.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/main.c.o
-.PHONY : main.c.o
+files/kernel.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/kernel.c.o
+.PHONY : files/kernel.c.o
 
-main.i: main.c.i
+files/kernel.i: files/kernel.c.i
 
-.PHONY : main.i
+.PHONY : files/kernel.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/main.c.i
-.PHONY : main.c.i
+files/kernel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/kernel.c.i
+.PHONY : files/kernel.c.i
 
-main.s: main.c.s
+files/kernel.s: files/kernel.c.s
 
-.PHONY : main.s
+.PHONY : files/kernel.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/main.c.s
-.PHONY : main.c.s
+files/kernel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/kernel.c.s
+.PHONY : files/kernel.c.s
 
-memorymanager.o: memorymanager.c.o
+files/main.o: files/main.c.o
 
-.PHONY : memorymanager.o
+.PHONY : files/main.o
 
 # target to build an object file
-memorymanager.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/memorymanager.c.o
-.PHONY : memorymanager.c.o
+files/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/main.c.o
+.PHONY : files/main.c.o
 
-memorymanager.i: memorymanager.c.i
+files/main.i: files/main.c.i
 
-.PHONY : memorymanager.i
+.PHONY : files/main.i
 
 # target to preprocess a source file
-memorymanager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/memorymanager.c.i
-.PHONY : memorymanager.c.i
+files/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/main.c.i
+.PHONY : files/main.c.i
 
-memorymanager.s: memorymanager.c.s
+files/main.s: files/main.c.s
 
-.PHONY : memorymanager.s
+.PHONY : files/main.s
 
 # target to generate assembly for a file
-memorymanager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/memorymanager.c.s
-.PHONY : memorymanager.c.s
+files/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/main.c.s
+.PHONY : files/main.c.s
 
-pcb.o: pcb.c.o
+files/memorymanager.o: files/memorymanager.c.o
 
-.PHONY : pcb.o
+.PHONY : files/memorymanager.o
 
 # target to build an object file
-pcb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/pcb.c.o
-.PHONY : pcb.c.o
+files/memorymanager.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/memorymanager.c.o
+.PHONY : files/memorymanager.c.o
 
-pcb.i: pcb.c.i
+files/memorymanager.i: files/memorymanager.c.i
 
-.PHONY : pcb.i
+.PHONY : files/memorymanager.i
 
 # target to preprocess a source file
-pcb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/pcb.c.i
-.PHONY : pcb.c.i
+files/memorymanager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/memorymanager.c.i
+.PHONY : files/memorymanager.c.i
 
-pcb.s: pcb.c.s
+files/memorymanager.s: files/memorymanager.c.s
 
-.PHONY : pcb.s
+.PHONY : files/memorymanager.s
 
 # target to generate assembly for a file
-pcb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/pcb.c.s
-.PHONY : pcb.c.s
+files/memorymanager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/memorymanager.c.s
+.PHONY : files/memorymanager.c.s
 
-ram.o: ram.c.o
+files/pcb.o: files/pcb.c.o
 
-.PHONY : ram.o
+.PHONY : files/pcb.o
 
 # target to build an object file
-ram.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/ram.c.o
-.PHONY : ram.c.o
+files/pcb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/pcb.c.o
+.PHONY : files/pcb.c.o
 
-ram.i: ram.c.i
+files/pcb.i: files/pcb.c.i
 
-.PHONY : ram.i
+.PHONY : files/pcb.i
 
 # target to preprocess a source file
-ram.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/ram.c.i
-.PHONY : ram.c.i
+files/pcb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/pcb.c.i
+.PHONY : files/pcb.c.i
 
-ram.s: ram.c.s
+files/pcb.s: files/pcb.c.s
 
-.PHONY : ram.s
+.PHONY : files/pcb.s
 
 # target to generate assembly for a file
-ram.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/ram.c.s
-.PHONY : ram.c.s
+files/pcb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/pcb.c.s
+.PHONY : files/pcb.c.s
 
-shell.o: shell.c.o
+files/ram.o: files/ram.c.o
 
-.PHONY : shell.o
+.PHONY : files/ram.o
 
 # target to build an object file
-shell.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/shell.c.o
-.PHONY : shell.c.o
+files/ram.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/ram.c.o
+.PHONY : files/ram.c.o
 
-shell.i: shell.c.i
+files/ram.i: files/ram.c.i
 
-.PHONY : shell.i
+.PHONY : files/ram.i
 
 # target to preprocess a source file
-shell.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/shell.c.i
-.PHONY : shell.c.i
+files/ram.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/ram.c.i
+.PHONY : files/ram.c.i
 
-shell.s: shell.c.s
+files/ram.s: files/ram.c.s
 
-.PHONY : shell.s
+.PHONY : files/ram.s
 
 # target to generate assembly for a file
-shell.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/shell.c.s
-.PHONY : shell.c.s
+files/ram.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/ram.c.s
+.PHONY : files/ram.c.s
 
-shellmemory.o: shellmemory.c.o
+files/shell.o: files/shell.c.o
 
-.PHONY : shellmemory.o
+.PHONY : files/shell.o
 
 # target to build an object file
-shellmemory.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/shellmemory.c.o
-.PHONY : shellmemory.c.o
+files/shell.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/shell.c.o
+.PHONY : files/shell.c.o
 
-shellmemory.i: shellmemory.c.i
+files/shell.i: files/shell.c.i
 
-.PHONY : shellmemory.i
+.PHONY : files/shell.i
 
 # target to preprocess a source file
-shellmemory.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/shellmemory.c.i
-.PHONY : shellmemory.c.i
+files/shell.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/shell.c.i
+.PHONY : files/shell.c.i
 
-shellmemory.s: shellmemory.c.s
+files/shell.s: files/shell.c.s
 
-.PHONY : shellmemory.s
+.PHONY : files/shell.s
 
 # target to generate assembly for a file
-shellmemory.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/shellmemory.c.s
-.PHONY : shellmemory.c.s
+files/shell.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/shell.c.s
+.PHONY : files/shell.c.s
+
+files/shellmemory.o: files/shellmemory.c.o
+
+.PHONY : files/shellmemory.o
+
+# target to build an object file
+files/shellmemory.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/shellmemory.c.o
+.PHONY : files/shellmemory.c.o
+
+files/shellmemory.i: files/shellmemory.c.i
+
+.PHONY : files/shellmemory.i
+
+# target to preprocess a source file
+files/shellmemory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/shellmemory.c.i
+.PHONY : files/shellmemory.c.i
+
+files/shellmemory.s: files/shellmemory.c.s
+
+.PHONY : files/shellmemory.s
+
+# target to generate assembly for a file
+files/shellmemory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/osa3_wip.dir/build.make CMakeFiles/osa3_wip.dir/files/shellmemory.c.s
+.PHONY : files/shellmemory.c.s
 
 # Help Target
 help:
@@ -395,33 +395,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... osa3_wip"
-	@echo "... cpu.o"
-	@echo "... cpu.i"
-	@echo "... cpu.s"
-	@echo "... interpreter.o"
-	@echo "... interpreter.i"
-	@echo "... interpreter.s"
-	@echo "... kernel.o"
-	@echo "... kernel.i"
-	@echo "... kernel.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... memorymanager.o"
-	@echo "... memorymanager.i"
-	@echo "... memorymanager.s"
-	@echo "... pcb.o"
-	@echo "... pcb.i"
-	@echo "... pcb.s"
-	@echo "... ram.o"
-	@echo "... ram.i"
-	@echo "... ram.s"
-	@echo "... shell.o"
-	@echo "... shell.i"
-	@echo "... shell.s"
-	@echo "... shellmemory.o"
-	@echo "... shellmemory.i"
-	@echo "... shellmemory.s"
+	@echo "... files/cpu.o"
+	@echo "... files/cpu.i"
+	@echo "... files/cpu.s"
+	@echo "... files/interpreter.o"
+	@echo "... files/interpreter.i"
+	@echo "... files/interpreter.s"
+	@echo "... files/kernel.o"
+	@echo "... files/kernel.i"
+	@echo "... files/kernel.s"
+	@echo "... files/main.o"
+	@echo "... files/main.i"
+	@echo "... files/main.s"
+	@echo "... files/memorymanager.o"
+	@echo "... files/memorymanager.i"
+	@echo "... files/memorymanager.s"
+	@echo "... files/pcb.o"
+	@echo "... files/pcb.i"
+	@echo "... files/pcb.s"
+	@echo "... files/ram.o"
+	@echo "... files/ram.i"
+	@echo "... files/ram.s"
+	@echo "... files/shell.o"
+	@echo "... files/shell.i"
+	@echo "... files/shell.s"
+	@echo "... files/shellmemory.o"
+	@echo "... files/shellmemory.i"
+	@echo "... files/shellmemory.s"
 .PHONY : help
 
 

@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/thomas/CLionProjects/osa3 wip/cpu.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/cpu.c.o"
-  "/Users/thomas/CLionProjects/osa3 wip/interpreter.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/interpreter.c.o"
-  "/Users/thomas/CLionProjects/osa3 wip/kernel.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/kernel.c.o"
-  "/Users/thomas/CLionProjects/osa3 wip/main.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/main.c.o"
-  "/Users/thomas/CLionProjects/osa3 wip/memorymanager.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/memorymanager.c.o"
-  "/Users/thomas/CLionProjects/osa3 wip/pcb.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/pcb.c.o"
-  "/Users/thomas/CLionProjects/osa3 wip/ram.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/ram.c.o"
-  "/Users/thomas/CLionProjects/osa3 wip/shell.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/shell.c.o"
-  "/Users/thomas/CLionProjects/osa3 wip/shellmemory.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/shellmemory.c.o"
+  "/Users/thomas/CLionProjects/osa3 wip/files/cpu.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/files/cpu.c.o"
+  "/Users/thomas/CLionProjects/osa3 wip/files/interpreter.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/files/interpreter.c.o"
+  "/Users/thomas/CLionProjects/osa3 wip/files/kernel.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/files/kernel.c.o"
+  "/Users/thomas/CLionProjects/osa3 wip/files/main.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/files/main.c.o"
+  "/Users/thomas/CLionProjects/osa3 wip/files/memorymanager.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/files/memorymanager.c.o"
+  "/Users/thomas/CLionProjects/osa3 wip/files/pcb.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/files/pcb.c.o"
+  "/Users/thomas/CLionProjects/osa3 wip/files/ram.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/files/ram.c.o"
+  "/Users/thomas/CLionProjects/osa3 wip/files/shell.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/files/shell.c.o"
+  "/Users/thomas/CLionProjects/osa3 wip/files/shellmemory.c" "/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles/osa3_wip.dir/files/shellmemory.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -78,67 +78,67 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/TESTFILE.txt">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/TESTFILE.txt">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/cpu.c">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/cpu.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/cpu.h">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/cpu.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/interpreter.c">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/interpreter.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/interpreter.h">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/interpreter.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/kernel.c">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/kernel.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/kernel.h">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/kernel.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/main.c">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/main.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/memorymanager.c">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/memorymanager.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/memorymanager.h">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/memorymanager.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/pcb.c">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/pcb.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/pcb.h">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/pcb.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/ram.c">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/ram.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/ram.h">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/ram.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/script1.txt">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/script1.txt">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/script2.txt">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/script2.txt">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/script3.txt">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/script3.txt">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/shell.c">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/shell.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/shell.h">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/shell.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/shellmemory.c">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/shellmemory.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/shellmemory.h">
+		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/shellmemory.h">
 			<Option target="osa3_wip"/>
 		</Unit>
 		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/CMakeLists.txt">

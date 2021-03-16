@@ -77,147 +77,147 @@ include CMakeFiles/osa3_wip.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/osa3_wip.dir/flags.make
 
-CMakeFiles/osa3_wip.dir/cpu.c.o: CMakeFiles/osa3_wip.dir/flags.make
-CMakeFiles/osa3_wip.dir/cpu.c.o: ../cpu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/osa3_wip.dir/cpu.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/cpu.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/cpu.c"
+CMakeFiles/osa3_wip.dir/files/cpu.c.o: CMakeFiles/osa3_wip.dir/flags.make
+CMakeFiles/osa3_wip.dir/files/cpu.c.o: ../files/cpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/osa3_wip.dir/files/cpu.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/files/cpu.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/files/cpu.c"
 
-CMakeFiles/osa3_wip.dir/cpu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/cpu.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/cpu.c" > CMakeFiles/osa3_wip.dir/cpu.c.i
+CMakeFiles/osa3_wip.dir/files/cpu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/files/cpu.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/files/cpu.c" > CMakeFiles/osa3_wip.dir/files/cpu.c.i
 
-CMakeFiles/osa3_wip.dir/cpu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/cpu.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/cpu.c" -o CMakeFiles/osa3_wip.dir/cpu.c.s
+CMakeFiles/osa3_wip.dir/files/cpu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/files/cpu.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/files/cpu.c" -o CMakeFiles/osa3_wip.dir/files/cpu.c.s
 
-CMakeFiles/osa3_wip.dir/interpreter.c.o: CMakeFiles/osa3_wip.dir/flags.make
-CMakeFiles/osa3_wip.dir/interpreter.c.o: ../interpreter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/osa3_wip.dir/interpreter.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/interpreter.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/interpreter.c"
+CMakeFiles/osa3_wip.dir/files/interpreter.c.o: CMakeFiles/osa3_wip.dir/flags.make
+CMakeFiles/osa3_wip.dir/files/interpreter.c.o: ../files/interpreter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/osa3_wip.dir/files/interpreter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/files/interpreter.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/files/interpreter.c"
 
-CMakeFiles/osa3_wip.dir/interpreter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/interpreter.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/interpreter.c" > CMakeFiles/osa3_wip.dir/interpreter.c.i
+CMakeFiles/osa3_wip.dir/files/interpreter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/files/interpreter.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/files/interpreter.c" > CMakeFiles/osa3_wip.dir/files/interpreter.c.i
 
-CMakeFiles/osa3_wip.dir/interpreter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/interpreter.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/interpreter.c" -o CMakeFiles/osa3_wip.dir/interpreter.c.s
+CMakeFiles/osa3_wip.dir/files/interpreter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/files/interpreter.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/files/interpreter.c" -o CMakeFiles/osa3_wip.dir/files/interpreter.c.s
 
-CMakeFiles/osa3_wip.dir/kernel.c.o: CMakeFiles/osa3_wip.dir/flags.make
-CMakeFiles/osa3_wip.dir/kernel.c.o: ../kernel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/osa3_wip.dir/kernel.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/kernel.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/kernel.c"
+CMakeFiles/osa3_wip.dir/files/kernel.c.o: CMakeFiles/osa3_wip.dir/flags.make
+CMakeFiles/osa3_wip.dir/files/kernel.c.o: ../files/kernel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/osa3_wip.dir/files/kernel.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/files/kernel.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/files/kernel.c"
 
-CMakeFiles/osa3_wip.dir/kernel.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/kernel.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/kernel.c" > CMakeFiles/osa3_wip.dir/kernel.c.i
+CMakeFiles/osa3_wip.dir/files/kernel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/files/kernel.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/files/kernel.c" > CMakeFiles/osa3_wip.dir/files/kernel.c.i
 
-CMakeFiles/osa3_wip.dir/kernel.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/kernel.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/kernel.c" -o CMakeFiles/osa3_wip.dir/kernel.c.s
+CMakeFiles/osa3_wip.dir/files/kernel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/files/kernel.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/files/kernel.c" -o CMakeFiles/osa3_wip.dir/files/kernel.c.s
 
-CMakeFiles/osa3_wip.dir/pcb.c.o: CMakeFiles/osa3_wip.dir/flags.make
-CMakeFiles/osa3_wip.dir/pcb.c.o: ../pcb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/osa3_wip.dir/pcb.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/pcb.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/pcb.c"
+CMakeFiles/osa3_wip.dir/files/pcb.c.o: CMakeFiles/osa3_wip.dir/flags.make
+CMakeFiles/osa3_wip.dir/files/pcb.c.o: ../files/pcb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/osa3_wip.dir/files/pcb.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/files/pcb.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/files/pcb.c"
 
-CMakeFiles/osa3_wip.dir/pcb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/pcb.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/pcb.c" > CMakeFiles/osa3_wip.dir/pcb.c.i
+CMakeFiles/osa3_wip.dir/files/pcb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/files/pcb.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/files/pcb.c" > CMakeFiles/osa3_wip.dir/files/pcb.c.i
 
-CMakeFiles/osa3_wip.dir/pcb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/pcb.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/pcb.c" -o CMakeFiles/osa3_wip.dir/pcb.c.s
+CMakeFiles/osa3_wip.dir/files/pcb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/files/pcb.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/files/pcb.c" -o CMakeFiles/osa3_wip.dir/files/pcb.c.s
 
-CMakeFiles/osa3_wip.dir/ram.c.o: CMakeFiles/osa3_wip.dir/flags.make
-CMakeFiles/osa3_wip.dir/ram.c.o: ../ram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/osa3_wip.dir/ram.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/ram.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/ram.c"
+CMakeFiles/osa3_wip.dir/files/ram.c.o: CMakeFiles/osa3_wip.dir/flags.make
+CMakeFiles/osa3_wip.dir/files/ram.c.o: ../files/ram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/osa3_wip.dir/files/ram.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/files/ram.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/files/ram.c"
 
-CMakeFiles/osa3_wip.dir/ram.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/ram.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/ram.c" > CMakeFiles/osa3_wip.dir/ram.c.i
+CMakeFiles/osa3_wip.dir/files/ram.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/files/ram.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/files/ram.c" > CMakeFiles/osa3_wip.dir/files/ram.c.i
 
-CMakeFiles/osa3_wip.dir/ram.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/ram.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/ram.c" -o CMakeFiles/osa3_wip.dir/ram.c.s
+CMakeFiles/osa3_wip.dir/files/ram.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/files/ram.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/files/ram.c" -o CMakeFiles/osa3_wip.dir/files/ram.c.s
 
-CMakeFiles/osa3_wip.dir/shell.c.o: CMakeFiles/osa3_wip.dir/flags.make
-CMakeFiles/osa3_wip.dir/shell.c.o: ../shell.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/osa3_wip.dir/shell.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/shell.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/shell.c"
+CMakeFiles/osa3_wip.dir/files/shell.c.o: CMakeFiles/osa3_wip.dir/flags.make
+CMakeFiles/osa3_wip.dir/files/shell.c.o: ../files/shell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/osa3_wip.dir/files/shell.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/files/shell.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/files/shell.c"
 
-CMakeFiles/osa3_wip.dir/shell.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/shell.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/shell.c" > CMakeFiles/osa3_wip.dir/shell.c.i
+CMakeFiles/osa3_wip.dir/files/shell.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/files/shell.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/files/shell.c" > CMakeFiles/osa3_wip.dir/files/shell.c.i
 
-CMakeFiles/osa3_wip.dir/shell.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/shell.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/shell.c" -o CMakeFiles/osa3_wip.dir/shell.c.s
+CMakeFiles/osa3_wip.dir/files/shell.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/files/shell.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/files/shell.c" -o CMakeFiles/osa3_wip.dir/files/shell.c.s
 
-CMakeFiles/osa3_wip.dir/shellmemory.c.o: CMakeFiles/osa3_wip.dir/flags.make
-CMakeFiles/osa3_wip.dir/shellmemory.c.o: ../shellmemory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/osa3_wip.dir/shellmemory.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/shellmemory.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/shellmemory.c"
+CMakeFiles/osa3_wip.dir/files/shellmemory.c.o: CMakeFiles/osa3_wip.dir/flags.make
+CMakeFiles/osa3_wip.dir/files/shellmemory.c.o: ../files/shellmemory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/osa3_wip.dir/files/shellmemory.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/files/shellmemory.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/files/shellmemory.c"
 
-CMakeFiles/osa3_wip.dir/shellmemory.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/shellmemory.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/shellmemory.c" > CMakeFiles/osa3_wip.dir/shellmemory.c.i
+CMakeFiles/osa3_wip.dir/files/shellmemory.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/files/shellmemory.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/files/shellmemory.c" > CMakeFiles/osa3_wip.dir/files/shellmemory.c.i
 
-CMakeFiles/osa3_wip.dir/shellmemory.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/shellmemory.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/shellmemory.c" -o CMakeFiles/osa3_wip.dir/shellmemory.c.s
+CMakeFiles/osa3_wip.dir/files/shellmemory.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/files/shellmemory.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/files/shellmemory.c" -o CMakeFiles/osa3_wip.dir/files/shellmemory.c.s
 
-CMakeFiles/osa3_wip.dir/memorymanager.c.o: CMakeFiles/osa3_wip.dir/flags.make
-CMakeFiles/osa3_wip.dir/memorymanager.c.o: ../memorymanager.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/osa3_wip.dir/memorymanager.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/memorymanager.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/memorymanager.c"
+CMakeFiles/osa3_wip.dir/files/memorymanager.c.o: CMakeFiles/osa3_wip.dir/flags.make
+CMakeFiles/osa3_wip.dir/files/memorymanager.c.o: ../files/memorymanager.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/osa3_wip.dir/files/memorymanager.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/files/memorymanager.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/files/memorymanager.c"
 
-CMakeFiles/osa3_wip.dir/memorymanager.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/memorymanager.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/memorymanager.c" > CMakeFiles/osa3_wip.dir/memorymanager.c.i
+CMakeFiles/osa3_wip.dir/files/memorymanager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/files/memorymanager.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/files/memorymanager.c" > CMakeFiles/osa3_wip.dir/files/memorymanager.c.i
 
-CMakeFiles/osa3_wip.dir/memorymanager.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/memorymanager.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/memorymanager.c" -o CMakeFiles/osa3_wip.dir/memorymanager.c.s
+CMakeFiles/osa3_wip.dir/files/memorymanager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/files/memorymanager.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/files/memorymanager.c" -o CMakeFiles/osa3_wip.dir/files/memorymanager.c.s
 
-CMakeFiles/osa3_wip.dir/main.c.o: CMakeFiles/osa3_wip.dir/flags.make
-CMakeFiles/osa3_wip.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/osa3_wip.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/main.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/main.c"
+CMakeFiles/osa3_wip.dir/files/main.c.o: CMakeFiles/osa3_wip.dir/flags.make
+CMakeFiles/osa3_wip.dir/files/main.c.o: ../files/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/osa3_wip.dir/files/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/osa3_wip.dir/files/main.c.o   -c "/Users/thomas/CLionProjects/osa3 wip/files/main.c"
 
-CMakeFiles/osa3_wip.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/main.c" > CMakeFiles/osa3_wip.dir/main.c.i
+CMakeFiles/osa3_wip.dir/files/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/osa3_wip.dir/files/main.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/thomas/CLionProjects/osa3 wip/files/main.c" > CMakeFiles/osa3_wip.dir/files/main.c.i
 
-CMakeFiles/osa3_wip.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/main.c" -o CMakeFiles/osa3_wip.dir/main.c.s
+CMakeFiles/osa3_wip.dir/files/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/osa3_wip.dir/files/main.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/thomas/CLionProjects/osa3 wip/files/main.c" -o CMakeFiles/osa3_wip.dir/files/main.c.s
 
 # Object files for target osa3_wip
 osa3_wip_OBJECTS = \
-"CMakeFiles/osa3_wip.dir/cpu.c.o" \
-"CMakeFiles/osa3_wip.dir/interpreter.c.o" \
-"CMakeFiles/osa3_wip.dir/kernel.c.o" \
-"CMakeFiles/osa3_wip.dir/pcb.c.o" \
-"CMakeFiles/osa3_wip.dir/ram.c.o" \
-"CMakeFiles/osa3_wip.dir/shell.c.o" \
-"CMakeFiles/osa3_wip.dir/shellmemory.c.o" \
-"CMakeFiles/osa3_wip.dir/memorymanager.c.o" \
-"CMakeFiles/osa3_wip.dir/main.c.o"
+"CMakeFiles/osa3_wip.dir/files/cpu.c.o" \
+"CMakeFiles/osa3_wip.dir/files/interpreter.c.o" \
+"CMakeFiles/osa3_wip.dir/files/kernel.c.o" \
+"CMakeFiles/osa3_wip.dir/files/pcb.c.o" \
+"CMakeFiles/osa3_wip.dir/files/ram.c.o" \
+"CMakeFiles/osa3_wip.dir/files/shell.c.o" \
+"CMakeFiles/osa3_wip.dir/files/shellmemory.c.o" \
+"CMakeFiles/osa3_wip.dir/files/memorymanager.c.o" \
+"CMakeFiles/osa3_wip.dir/files/main.c.o"
 
 # External object files for target osa3_wip
 osa3_wip_EXTERNAL_OBJECTS =
 
-osa3_wip: CMakeFiles/osa3_wip.dir/cpu.c.o
-osa3_wip: CMakeFiles/osa3_wip.dir/interpreter.c.o
-osa3_wip: CMakeFiles/osa3_wip.dir/kernel.c.o
-osa3_wip: CMakeFiles/osa3_wip.dir/pcb.c.o
-osa3_wip: CMakeFiles/osa3_wip.dir/ram.c.o
-osa3_wip: CMakeFiles/osa3_wip.dir/shell.c.o
-osa3_wip: CMakeFiles/osa3_wip.dir/shellmemory.c.o
-osa3_wip: CMakeFiles/osa3_wip.dir/memorymanager.c.o
-osa3_wip: CMakeFiles/osa3_wip.dir/main.c.o
+osa3_wip: CMakeFiles/osa3_wip.dir/files/cpu.c.o
+osa3_wip: CMakeFiles/osa3_wip.dir/files/interpreter.c.o
+osa3_wip: CMakeFiles/osa3_wip.dir/files/kernel.c.o
+osa3_wip: CMakeFiles/osa3_wip.dir/files/pcb.c.o
+osa3_wip: CMakeFiles/osa3_wip.dir/files/ram.c.o
+osa3_wip: CMakeFiles/osa3_wip.dir/files/shell.c.o
+osa3_wip: CMakeFiles/osa3_wip.dir/files/shellmemory.c.o
+osa3_wip: CMakeFiles/osa3_wip.dir/files/memorymanager.c.o
+osa3_wip: CMakeFiles/osa3_wip.dir/files/main.c.o
 osa3_wip: CMakeFiles/osa3_wip.dir/build.make
 osa3_wip: CMakeFiles/osa3_wip.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable osa3_wip"

@@ -3,6 +3,6 @@ project(osa3_wip C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(osa3_wip cpu.c cpu.h interpreter.c interpreter.h kernel.c kernel.h
-        pcb.c pcb.h ram.c ram.h script1.txt script2.txt script3.txt shell.c shell.h
-        shellmemory.c shellmemory.h TESTFILE.txt memorymanager.c memorymanager.h main.c)
+add_executable(osa3_wip files/cpu.c files/cpu.h files/interpreter.c files/interpreter.h files/kernel.c files/kernel.h
+        files/pcb.c files/pcb.h files/ram.c files/ram.h files/script1.txt files/script2.txt files/script3.txt files/shell.c files/shell.h
+        files/shellmemory.c files/shellmemory.h files/TESTFILE.txt files/memorymanager.c files/memorymanager.h files/main.c)
