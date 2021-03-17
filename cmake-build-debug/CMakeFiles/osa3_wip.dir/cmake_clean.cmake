@@ -8,7 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/osa3_wip.dir/files/ram.c.o"
   "CMakeFiles/osa3_wip.dir/files/shell.c.o"
   "CMakeFiles/osa3_wip.dir/files/shellmemory.c.o"
-  "osa3_wip"
+  "libosa3_wip.dll.a"
+  "osa3_wip.exe"
   "osa3_wip.pdb"
 )
 

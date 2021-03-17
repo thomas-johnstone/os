@@ -8,140 +8,136 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="osa3_wip">
-				<Option output="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/osa3_wip" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/osa3_wip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 osa3_wip"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 osa3_wip"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="osa3_wip/fast">
-				<Option output="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug/osa3_wip" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/thomas/CLionProjects/osa3 wip/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/osa3_wip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 osa3_wip/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/thomas/CLionProjects/osa3\ wip/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 osa3_wip/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/thomas/CLionProjects/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/TESTFILE.txt">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/TESTFILE.txt">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/cpu.c">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/cpu.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/cpu.h">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/cpu.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/interpreter.c">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/interpreter.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/interpreter.h">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/interpreter.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/kernel.c">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/kernel.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/kernel.h">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/kernel.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/main.c">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/main.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/memorymanager.c">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/memorymanager.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/memorymanager.h">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/memorymanager.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/pcb.c">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/pcb.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/pcb.h">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/pcb.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/ram.c">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/ram.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/ram.h">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/ram.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/script1.txt">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/script1.txt">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/script2.txt">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/script2.txt">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/script3.txt">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/script3.txt">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/shell.c">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/shell.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/shell.h">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/shell.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/shellmemory.c">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/shellmemory.c">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/files/shellmemory.h">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/files/shellmemory.h">
 			<Option target="osa3_wip"/>
 		</Unit>
-		<Unit filename="/Users/thomas/CLionProjects/osa3 wip/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/thomas/CLionProjects/os/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
